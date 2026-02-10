@@ -17,7 +17,7 @@ export default function Project({
   return (
     <div className="project_bloc">
       <div className="project_description">
-        <h2>{title} <a href={location_ws}>{location}</a></h2>
+        <h2>{title} - <a href={location_ws} target="_blank">{location}</a></h2>
         <h4>{subtitle}</h4>
         {predescription && predescription}
         <p>{description}</p>
