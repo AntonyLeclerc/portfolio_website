@@ -1,10 +1,11 @@
 import React from "react";
 import "./NavBar.css";
+import AL_logo from "/logos/logo_paint_AL.jpg"
 
 export default function NavBar({ text, test }) {
   return (
     <div id="navbar">
-      <h3 id="navbar_left">WIP logo</h3>
+      <img src={AL_logo} alt="" id="logo_AL_navbar"/>
       <div id="navbar_right">
         <a
           href="Home"
