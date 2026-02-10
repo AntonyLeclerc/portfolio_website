@@ -1,4 +1,5 @@
 import React from "react";
+import moi_img from "../src/assets/moi.jpg"
 
 export default function MainPage() {
   return (
@@ -17,7 +18,7 @@ export default function MainPage() {
               premières opportunités professionnelles dans le domaine du Machine
               Learning / la vision par ordinateur.{" "}
             </p>
-            <img src="src/assets/moi.jpg" alt="" />
+            <img src={moi_img} alt="" />
           </div>
         </div>
       </div>
