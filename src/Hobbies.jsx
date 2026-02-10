@@ -4,12 +4,12 @@ import Hobby from "./Hobby";
 const exemples_plats = [
   {
     item_name: "Curry Japonais",
-    img_path: "src/assets/manger/curry.jpg",
+    img_path: "/manger/curry.jpg",
     wiki_link: "https://fr.wikipedia.org/wiki/Curry_japonais",
   },
   {
     item_name: "Gyozas",
-    img_path: "src/assets/manger/gyozas.png",
+    img_path: "/manger/gyozas.png",
     wiki_link: "https://fr.wikipedia.org/wiki/Jiaozi",
   },
 ];
@@ -17,12 +17,12 @@ const exemples_plats = [
 const exemples_jeux = [
   {
     item_name: "Clair Obscur - Expédition 33",
-    img_path: "src/assets/jeux/co_e33.webp",
+    img_path: "/jeux/co_e33.webp",
     wiki_link: "https://fr.wikipedia.org/wiki/Clair_Obscur:_Expedition_33",
   },
   {
     item_name: "Hades II",
-    img_path: "src/assets/jeux/hades2.jpeg",
+    img_path: "/jeux/hades2.jpeg",
     wiki_link: "https://fr.wikipedia.org/wiki/Hades_II",
   },
 ];

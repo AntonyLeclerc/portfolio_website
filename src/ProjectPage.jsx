@@ -8,7 +8,7 @@ export default function ProjectPage() {
         title="Projet de recherche de M2 (Mars 2025 - Août 2025)"
         subtitle="DeTOX - Lutte contre les vidéos hyper-truquées de personnalités françaises."
         description="Mise en place d'une pipeline permettant la génération d'un Deepfake audio et vidéo d'une personnalité Française, pour permettre par la suite l'entraînement d'autres réseaux de neurones destinés à détecter si une vidéo d'une personnalité est réelle ou non."
-        image="src/assets/deepfake.png"
+        image="/projects/deepfake.png"
         linkto="https://github.com/AntonyLeclerc/Stage/tree/main"
         videolink="https://youtu.be/rmTC4dMQU3k"
       />
