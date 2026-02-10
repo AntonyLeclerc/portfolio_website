@@ -20,7 +20,8 @@ export default function ProjectPage() {
         location="LIP 6"
         locaiton_ws="https://www.lip6.fr/"
         subtitle="Reconnaissance de numéros sur surface sphérique, et application au LOTO"
-        description="Dans la continuité d'un projet de recherche de M1 ayant eu lieu de Janvier 2024 à Mai 2024, j'ai eu l'occasion de poursuivre ce projet en stage d'été. Utilisation de réseaux de neurones convolutionnels (CNN) pour pouvoir reconnaitre des numéros sur des surfaces sphériques (non planes), et application au tirage du LOTO, les tirages actuels se faisant avec des micro puces à l'intérieur des boules pour éviter toute triche, implique un coût supplémentaire sur le long terme, recherche d'une solution par intelligence artificielle."
+        predescription="Dans la continuité d'un projet de recherche de M1 ayant eu lieu de Janvier 2024 à Mai 2024, j'ai eu l'occasion de poursuivre ce projet en stage."
+        description="Utilisation de réseaux de neurones convolutionnels (CNN) pour pouvoir reconnaitre des numéros sur des surfaces sphériques (non planes), et application au tirage du LOTO, les tirages actuels se faisant avec des micro puces à l'intérieur des boules pour éviter toute triche, implique un coût supplémentaire sur le long terme, recherche d'une solution par intelligence artificielle."
         image="/projects/projetM1Loto.png"
         linkto="https://github.com/AntonyLeclerc/ProjetLoto/tree/main"
       />
