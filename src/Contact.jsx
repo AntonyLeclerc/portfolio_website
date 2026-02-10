@@ -21,12 +21,22 @@ export default function Contact() {
       />
 
       <Media
-        above_text="Ou me contacter par email !"
+        above_text="Me contacter par email"
         id="email_contact"
         image="/logos/email-envelope-white-icon.webp"
         text="Email"
         linkto="mailto:leclerc.antony.pro@gmail.com"
       />
-      </div>
+
+      <Media
+        above_text="Ou télécharger mon CV !"
+        id="cv_contact"
+        image="/logos/file_icon.png"
+        text="CV"
+        linkto="/LECLERC_ANTONY_Resume.pdf"
+      />
+    </div>
+    
+
   );
 }
