@@ -17,7 +17,7 @@ export default function ProjectPage() {
         title="Projet de recherche de M1 puis Stage de M1 (Janvier 2024 - Août 2024)"
         subtitle="Reconnaissance de numéros sur surface sphérique, et application au LOTO"
         description="Utilisation de réseaux de neurones convolutionnels (CNN) pour pouvoir reconnaitre des numéros sur des surfaces sphériques (non planes), et application au tirage du LOTO, les tirages actuels se faisant avec des micro puces à l'intérieur des boules pour éviter toute triche, implique un coût supplémentaire sur le long terme, recherche d'une solution par intelligence artificielle."
-        image="src/assets/projetM1Loto.png"
+        image="/public/projects/projetM1Loto.png"
         linkto="https://github.com/AntonyLeclerc/ProjetLoto/tree/main"
       />
     </div>
