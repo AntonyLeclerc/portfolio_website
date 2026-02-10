@@ -2,7 +2,7 @@ import React from "react";
 import "./NavBar.css";
 import AL_logo from "/logos/logo_paint_AL.jpg"
 
-export default function NavBar({ text, test }) {
+export default function NavBar({ text, change_page }) {
   return (
     <div id="navbar">
       <img src={AL_logo} alt="" id="logo_AL_navbar"/>
@@ -11,7 +11,7 @@ export default function NavBar({ text, test }) {
           href="Home"
           onClick={(e) => {
             e.preventDefault();
-            test("main_page");
+            change_page("main_page");
           }}
           title="Page d'accueil"
         >
@@ -22,7 +22,7 @@ export default function NavBar({ text, test }) {
           href="Projets"
           onClick={(e) => {
             e.preventDefault();
-            test("project_page");
+            change_page("project_page");
           }}
           title="Voir mes projets universitaires"
         >
@@ -33,7 +33,7 @@ export default function NavBar({ text, test }) {
           href="Hobbies"
           onClick={(e) => {
             e.preventDefault();
-            test("hobbies_page");
+            change_page("hobbies_page");
           }}
           title="Mes passions"
         >
@@ -44,7 +44,7 @@ export default function NavBar({ text, test }) {
           href="Contact"
           onClick={(e) => {
             e.preventDefault();
-            test("contact_page");
+            change_page("contact_page");
           }}
           title="Me contacter"
         >

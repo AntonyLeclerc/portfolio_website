@@ -15,7 +15,7 @@ function App() {
     <>
       <NavBar
       text="Ceci est un autre test"
-      test={setCurrentPage}
+      change_page={setCurrentPage}
       />
 
       <div id="page_content">

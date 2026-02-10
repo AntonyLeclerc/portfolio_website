@@ -11,7 +11,7 @@ export default function MainPage() {
             <p>
               Je suis Antony LECLERC, passioné de cuisine, de jeux vidéos et
               d'informatique, récemment diplômé du Master ANDROIDE (désormais{" "}
-              <a href="https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-ai2d">
+              <a target="_blank" href="https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-ai2d">
                 AI2D
               </a>
               ) de Sorbonne Université et suis actuellement à la recherche de
