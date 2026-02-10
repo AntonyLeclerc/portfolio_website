@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 export default function Project({
   title,
+  location,
+  location_ws,
   subtitle,
   description,
   image,
@@ -14,7 +16,7 @@ export default function Project({
   return (
     <div className="project_bloc">
       <div className="project_description">
-        <h2>{title}</h2>
+        <h2>{title} <a href={location_ws}>{location}</a></h2>
         <h4>{subtitle}</h4>
         <p>{description}</p>
         <p>
