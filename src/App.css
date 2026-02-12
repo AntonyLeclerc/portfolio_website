@@ -11,9 +11,10 @@
   align-items: center;
 }
 
-#moi_description > img{
-  width: 20%;
+#my_picture{
+  width: 40%;
 }
+
 #presentation{
   width: 65%;
 }
@@ -26,7 +27,7 @@
 }
 
 #contacts {
-  width: 40%;
+  width: auto;
 }
 
 #projets {
@@ -106,7 +107,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40%;
   height: 100%;
 }
 
@@ -147,4 +147,29 @@
 #logo_AL_navbar{
   width: 64px;
   height: 64px;
+}
+
+@media (max-width: 768px){
+  #my_picture{
+    width: 75%;
+    height: 100%;
+  }
+
+  .project_bloc{
+    flex-direction: column;
+  }
+
+  .project_bloc:nth-child(2n){
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 660px){
+  .exemples_hobbies{
+    flex-direction: column;
+    
+  }
+  .exemple_current_hobby:nth-child(2n){
+    flex-direction: column;
+  }  
 }

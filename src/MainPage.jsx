@@ -18,7 +18,7 @@ export default function MainPage() {
               premières opportunités professionnelles dans le domaine du Machine
               Learning / la vision par ordinateur.{" "}
             </p>
-            <img src={moi_img} alt="" />
+            <img id="my_picture" src={moi_img} alt="" />
           </div>
         </div>
       </div>
